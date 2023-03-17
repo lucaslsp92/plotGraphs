@@ -4,7 +4,7 @@ from configAndPlotData import configAndPlotData
 
 # input data
 os = "windows"
-fullFileName = ".\setup\calibration.json"
+fullFileName = ".\setup\example.json"
 
 # read JSON file
 file = open(fullFileName)
