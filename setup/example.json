@@ -1,0 +1,210 @@
+{
+	"input":
+	[{
+		"data":
+		{
+			"folder":".\\data", 
+			"filename":"example.txt",
+			"headerLines":1,
+			"columns":[6,2]
+		},
+		"config":
+		{
+			"legendName":"Minor head loss",
+			"lineSpec":"--o",
+			"lineWidth":2.5,
+			"lineColor":[0,0.4471,0.6980],
+			"yScale":0.001,
+			"yShift": 0.0,
+			"markerSize":12,
+			"markerSample":10,
+			"markerEdgeColor":[0,0.4471,0.6980],
+			"markerFaceColor":[0,0.4471,0.698]
+		}
+	},
+	{
+		"data":
+		{
+			"folder":".\\data", 
+			"filename":"example.txt",
+			"headerLines":1,
+			"columns":[6,3]
+		},
+		"config":
+		{
+			"legendName":"Major head loss",
+			"lineSpec":"-.",
+			"lineWidth":2.5,
+			"lineColor":[0.8353,0.3686,0],
+			"yScale":0.001,
+			"yShift": 0.0,
+			"markerSize":12,
+			"markerSample":1,
+			"markerEdgeColor":[0.8353,0.3686,0],
+			"markerFaceColor":[1,1,1]
+		}
+	},
+	{
+		"data":
+		{
+			"folder":".\\data", 
+			"filename":"example.txt",
+			"headerLines":1,
+			"columns":[6,4]
+		},
+		"config":
+		{
+			"legendName":"Total head loss",
+			"lineSpec":":",
+			"lineWidth":2.5,
+			"lineColor":[0.890196078,0.101960784,0.109803922],
+			"yScale":0.001,
+			"yShift": 0.0,
+			"markerSize":12,
+			"markerSample":1,
+			"markerEdgeColor":[0.890196078,0.101960784,0.109803922],
+			"markerFaceColor":[1,1,1]
+		}
+	}],
+	"output":
+	{
+		"data":
+		{
+			"folder": ".\\graphs",
+			"filename":"example"
+		},
+		"config":
+		{
+			"figure":
+			{
+				"position": {"left": 1.0,"bottom":1.0},
+				"size": {"width":30,"heigth":25},
+				"visible":"on",
+				"outsideBox":"on",
+				"title": "",	
+				"fontSize":30,
+				"font": "Times New Roman"
+			},			
+			"axis":
+			{
+				"labelFontSize":30,
+				"label":
+				{
+					"bottom":"$v$ [m/s]",
+					"left": "$P$ [kPa]",
+					"top":"$x/L$",
+					"right":"$v/U_{lid}$"
+				},
+				"limits":
+				{
+					"bottom": {"min":0.0,"max":3.00},
+					"left":{"min":0.0,"max":8.0},
+					"top": {"min":-0.5,"max":0.5},
+					"right":{"min":-1.0,"max":1.0}
+				},
+				"color":
+				{
+					"bottom":[0,0,0],
+					"left":[0,0,0],
+					"top":[0,0,0],
+					"right":[0,0,0]
+				},
+				"stick":{"bottom":0.5,"left":2.0,"top":0.25,"right":0.50},
+                "minorStick":{"bottom":0.1,"left":0.5,"top":0.25,"right":0.50},
+				"format":{"bottom":"%.1f","left":"%.1f","top":"%.2f","right":"%.2f"},
+				"exponent":{"bottom":0,"left":0,"top":0,"right":0},
+				"grid":{"x":"on","y":"on","lineStyle":"-","alpha":1.0},
+				"active":{"bottom":1,"left":1,"top":0,"right":0}
+			},			
+			"legend":
+			{
+				"active": "on",
+				"columns":1,
+				"fontSize":30,
+				"location":"upper left",
+				"orientation":"vertical",
+				"box":"on"
+			},			
+			"horizontalLines":
+			{
+				"number": 1,
+				"lineSpec":"--",
+				"fontSize":15,
+				"lineColor":[0,0.4471,0.6980],
+				"lineWidth":1.0,
+				"position":-1.146621961441744,
+				"labels":" ",
+				"labelOrientation":"horizontal",
+				"labelHorizontalAlignment":"right",
+				"labelVerticalAlignment":"top"
+			}			
+		}
+	},
+	"_comment":
+	{
+		"lineStyle":
+		{
+			"solid": "-",
+			"dashed": "--",
+			"dotted": ":",
+			"dash-dot": "-."
+		},
+		"marker":
+		{
+			"circle": "o",
+			"plus": "+",
+			"asterisk": "*",
+			"point": ".",
+			"cross": "x",
+			"square": "s",
+			"diamond": "d",
+			"upward-triangle": "^",
+			"downward-triagle": "v",
+			"rigth-triangle": ">",
+			"left-triangle": "<",
+			"pentagram": "p",
+			"hexagram": "h",
+			"horizontal-line": "_",
+			"vertical-line": "|"
+		},
+		"color-palette":
+		{
+			"8-colors":
+			{
+				"black":[0,0,0],
+				"orange-light": [0.9020,0.6235,0],
+				"orange-dark": [0.8353,0.3686,0],
+				"blue-light": [0.3373,0.7059,0.9137],
+				"blue-dark": [0,0.4471,0.6980],
+				"green": [0,0.6196,0.4509],
+				"purple":[0.8,0.4745,0.6549],
+				"yellow":[0.9412,0.8941,0.5588]
+			},
+			"paired":
+			{
+				"light":
+				{
+					"blue": [0.650980392,0.807843137,0.890196078],
+					"green": [0.698039216,0.874509804,0.541176471],
+					"red": [0.984313725,0.603921569,0.6],
+					"orange": [0.992156863,0.749019608,0.435294118],
+					"purple": [0.792156863,0.698039216,0.839215686]
+				},
+				"dark":
+				{
+					"blue": [0.121568627,0.470588235,0.705882353],
+					"green": [0.5,0.62745098,0.17254902],
+					"red": [0.890196078,0.101960784,0.109803922],
+					"orange": [1,0.498039216,0],
+					"purple": [0.415686275,0.539215686,0.603921569]
+				}
+			}
+		},
+		"legend":
+		{
+			"location": ["best", "upper right", "upper left", "lower left", 
+						"lower right", "right", "center left", "center right", 
+						"lower center", "upper center", "center"]
+		}		
+	}
+}

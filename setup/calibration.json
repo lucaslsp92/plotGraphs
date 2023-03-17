@@ -1,0 +1,222 @@
+{
+	"input":
+	[{
+		"data":
+		{
+			"folder":".\\data", 
+			"filename":"SLP_FR50_BB_BAG_0_L0_1E-1_Std.txt",
+			"headerLines":1,
+			"columns":[1,2]
+		},
+		"config":
+		{
+			"legendName":"Column height",
+			"lineSpec":"s",
+			"lineWidth":2.0,
+			"lineColor":[0.8353,0.3686,0],
+			"yScale":1000.0,
+			"yShift": 0.0,
+			"markerSize":8,
+			"markerSample":1,
+			"markerEdgeColor":[0,0.4471,0.6980],
+			"markerFaceColor":[0,0.4471,0.6980]
+		}
+	},
+	{
+		"data":
+		{
+			"folder":".\\data", 
+			"filename":"SLP_FR50_BB_BAG_0_L0_1E-1_trendLine.txt",
+			"headerLines":1,
+			"columns":[1,2]
+		},
+		"config":
+		{
+			"legendName":"",
+			"lineSpec":":",
+			"lineWidth":2.0,
+			"lineColor":[0,0.4471,0.6980],
+			"yScale":1000.0,
+			"yShift": 0.0,
+			"markerSize":8,
+			"markerSample":1,
+			"markerEdgeColor":[0,0.4471,0.6980],
+			"markerFaceColor":[0,0.4471,0.6980]
+		}
+	},
+	{
+		"data":
+		{
+			"folder":".\\data", 
+			"filename":"SLP_FR50_BB_BAG_0_L0_1E-1_Std.txt",
+			"headerLines":1,
+			"columns":[1,3]
+		},
+		"config":
+		{
+			"legendName":"Pressure",
+			"lineSpec":"o",
+			"lineWidth":2.0,
+			"lineColor":[0.8353,0.3686,0],
+			"yScale":1000.0,
+			"yShift": 0.0,
+			"markerSize":8,
+			"markerSample":1,
+			"markerEdgeColor":[0.8353,0.3686,0],
+			"markerFaceColor":[0.8353,0.3686,0],
+			"axis":{"x":"bottom","y":"right"}
+		}
+	},
+	{
+		"data":
+		{
+			"folder":".\\data", 
+			"filename":"SLP_FR50_BB_BAG_0_L0_1E-1_trendLine.txt",
+			"headerLines":1,
+			"columns":[1,3]
+		},
+		"config":
+		{
+			"legendName":"",
+			"lineSpec":":",
+			"lineWidth":2.0,
+			"lineColor":[0.8353,0.3686,0],
+			"yScale":1000.0,
+			"yShift": 0.0,
+			"markerSize":8,
+			"markerSample":1,
+			"markerEdgeColor":[0,0.4471,0.6980],
+			"markerFaceColor":[0,0.4471,0.6980],
+			"axis":{"x":"bottom","y":"right"}
+		}
+	}],
+	"output":
+	{
+		"data":
+		{
+			"folder": ".\\graphs",
+			"filename":"SLP_FR50_BB_BAG_0_L0_1E-1_Std"
+		},
+		"config":
+		{
+			"figure":
+			{
+				"position": {"left": 1.0,"bottom":1.0},
+				"size": {"width":30,"heigth":25},
+				"visible":"on",
+				"outsideBox":"on",
+				"title": "",	
+				"fontSize":25,
+				"font": "Times New Roman"
+			},			
+			"axis":
+			{
+				"labelFontSize":25,
+				"label":
+				{
+					"bottom":"$C_s$",
+					"left": "$NRMSD_H\\ [\\times10^{-3}]$",
+					"top":"$x/L$",
+					"right":"$Std_P\\ [\\times10^{-3}]$"
+				},
+				"limits":
+				{
+					"bottom": {"min":0.0,"max":10.0},
+					"left":{"min":0.0,"max":20.0},
+					"top": {"min":-0.5,"max":0.5},
+					"right":{"min":0.0,"max":4.0}
+				},
+				"color":
+				{
+					"bottom":[0,0,0],
+					"left":[0,0.4471,0.6980],
+					"top":[0,0,0],
+					"right":[0.8353,0.3686,0]
+				},
+				"stick":{"bottom":2.0,"left":5.0,"top":0.25,"right":1.0},
+				"minorStick":{"bottom":0.5,"left":1.0,"top":0.25,"right":0.2},
+				"format":{"bottom":"%.0f","left":"%.0f","top":"%.2f","right":"%.0f"},
+				"exponent":{"bottom":0,"left":1,"top":0,"right":0},
+				"grid":{"x":"on","y":"on","lineStyle":"-","alpha":1.0},
+				"active":{"bottom":1,"left":1,"top":0,"right":1}
+			},			
+			"legend":
+			{
+				"active": "on",
+				"columns":1,
+				"fontSize":30,
+				"location":"best",
+				"orientation":"vertical",
+				"box":"on"
+			}		
+		}
+	},
+	"_comment":
+	{
+		"lineStyle":
+		{
+			"solid": "-",
+			"dashed": "--",
+			"dotted": ":",
+			"dash-dot": "-."
+		},
+		"marker":
+		{
+			"circle": "o",
+			"plus": "+",
+			"asterisk": "*",
+			"point": ".",
+			"cross": "x",
+			"square": "s",
+			"diamond": "d",
+			"upward-triangle": "^",
+			"downward-triagle": "v",
+			"rigth-triangle": ">",
+			"left-triangle": "<",
+			"pentagram": "p",
+			"hexagram": "h",
+			"horizontal-line": "_",
+			"vertical-line": "|"
+		},
+		"color-palette":
+		{
+			"8-colors":
+			{
+				"black":[0,0,0],
+				"orange-light": [0.9020,0.6235,0],
+				"orange-dark": [0.8353,0.3686,0],
+				"blue-light": [0.3373,0.7059,0.9137],
+				"blue-dark": [0,0.4471,0.6980],
+				"green": [0,0.6196,0.4509],
+				"purple":[0.8,0.4745,0.6549],
+				"yellow":[0.9412,0.8941,0.5588]
+			},
+			"paired":
+			{
+				"light":
+				{
+					"blue": [0.650980392,0.807843137,0.890196078],
+					"green": [0.698039216,0.874509804,0.541176471],
+					"red": [0.984313725,0.603921569,0.6],
+					"orange": [0.992156863,0.749019608,0.435294118],
+					"purple": [0.792156863,0.698039216,0.839215686]
+				},
+				"dark":
+				{
+					"blue": [0.121568627,0.470588235,0.705882353],
+					"green": [0.5,0.62745098,0.17254902],
+					"red": [0.890196078,0.101960784,0.109803922],
+					"orange": [1,0.498039216,0],
+					"purple": [0.415686275,0.539215686,0.603921569]
+				}
+			}
+		},
+		"legend":
+		{
+			"location": ["North", "South", "East", "West",
+							 "NorthEast", "NorthWest", "NorthEastOutside", "NorthWestOutside", "NorthOutside",	
+							 "SouthEast", "SouthWest", "SouthEastOutside", "SouthWestOutside", "SouthOutside",	
+							 "EastOutside", "WestOutside", "Best", "BestOutside"]
+		}		
+	}
+}
