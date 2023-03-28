@@ -40,6 +40,14 @@ py plotGraph.py
 
 - [Peak detection algorithms](https://github.com/MonsieurV/py-findpeaks)
 
+- [Scipy Lecture Notes](https://scipy-lectures.org/index.html). Diversos tutoriais com destaque para:
+  - [Ler e salvar arquivos](https://scipy-lectures.org/intro/scipy.html#file-input-output-scipy-io)
+  - [Filtragem com FFT](https://scipy-lectures.org/intro/scipy/auto_examples/plot_fftpack.html#sphx-glr-intro-scipy-auto-examples-plot-fftpack-py)
+  - [Integração numérica](https://scipy-lectures.org/intro/scipy.html#numerical-integration-scipy-integrate)
+  - [Nova amostragem](https://scipy-lectures.org/intro/scipy/auto_examples/plot_resample.html#sphx-glr-intro-scipy-auto-examples-plot-resample-py)
+  - [Interpolação](https://scipy-lectures.org/intro/scipy.html#interpolation-scipy-interpolate)
+  - [Mínimo de função suave](https://scipy-lectures.org/intro/scipy/auto_examples/plot_optimize_example1.html#sphx-glr-intro-scipy-auto-examples-plot-optimize-example1-py)
+
 - [Tutorial para extrair dados de imagens](https://www.youtube.com/watch?v=P7GbGdMvopU). Sempre tente utilizar a opção **Automatic Extraction** do [WebPlotDigitizer](https://automeris.io/WebPlotDigitizer/)
 
 ## 📫 Contribuindo para plotGraphs
