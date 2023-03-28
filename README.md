@@ -24,8 +24,16 @@ cd plotGraphs
 
 Execute o arquivo python
 
+*Linux*
+
 ```
-py plotGraph.py
+py src/plotGraph.py
+```
+
+*Windows*
+
+```
+py src\plotGraph.py
 ```
 
 <!--Adicione comandos de execução e exemplos que você acha que os usuários acharão úteis. Fornece uma referência de opções para pontos de bônus!-->
